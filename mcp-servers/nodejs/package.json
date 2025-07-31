@@ -1,0 +1,19 @@
+{
+  "name": "mcp-nodejs-server",
+  "version": "1.0.0",
+  "description": "MCP server for Node.js development and npm management",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "mcp-nodejs-server": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "keywords": ["mcp", "nodejs", "npm", "development"],
+  "author": "Your Name",
+  "license": "MIT"
+}

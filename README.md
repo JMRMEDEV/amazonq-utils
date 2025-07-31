@@ -6,6 +6,7 @@ A comprehensive collection of resources for Amazon Q Developer, including cheats
 
 - **[MCP Setup Guide](./MCP.md)** - Complete guide for setting up Model Context Protocol with Amazon Q CLI
 - **[Web Scraper MCP Server](./mcp-servers/web-scraper/README.md)** - Custom MCP server for web scraping and React app testing
+- **[Node.js MCP Server](./mcp-servers/nodejs/README.md)** - Custom MCP server for Node.js development and npm management
 
 ## 🛠️ Custom MCP Servers
 
@@ -18,6 +19,14 @@ Located in `./mcp-servers/web-scraper/`, this server provides:
 - Multi-browser support (Chromium, Firefox, WebKit)
 - Screenshot capture and page analysis
 - Dynamic content handling for modern web apps
+
+### Node.js Server
+Located in `./mcp-servers/nodejs/`, this server provides:
+- Node.js script execution and command running
+- NPM package management and operations
+- Package.json analysis and information
+- Version checking for Node.js and npm
+- Working directory support for project management
 
 ## 🚀 Getting Started
 
