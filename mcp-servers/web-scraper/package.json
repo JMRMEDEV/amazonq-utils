@@ -1,0 +1,21 @@
+{
+  "name": "mcp-web-scraper",
+  "version": "1.0.0",
+  "description": "MCP server for web scraping and React app testing with Playwright",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "mcp-web-scraper": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "install-browsers": "npx playwright install"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "playwright": "^1.40.0"
+  },
+  "keywords": ["mcp", "web-scraping", "playwright", "testing"],
+  "author": "Your Name",
+  "license": "MIT"
+}
